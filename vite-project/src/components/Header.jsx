@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./header.css";
 import rcoemlogo from "../assets/rcoemLogo.png";
+import { Link } from "react-router-dom";
 
 class Header extends Component{
 
@@ -20,9 +21,9 @@ class Header extends Component{
                     </div>
                     <div>
                         <ul className={this.state.clicked ? "ul active" : "ul"}>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Achievements</li>
+                            <Link to="/" style={{color:'white',textDecoration:'none'}}><li>Home</li></Link>
+                            <Link to="/About" style={{color:'white',textDecoration:'none'}}><li>About</li></Link>
+                            <Link to="/Achievements" style={{color:'white',textDecoration:'none'}}><li>Achievements</li></Link>
                             <li>Faculty</li>
                         </ul>
                     </div>

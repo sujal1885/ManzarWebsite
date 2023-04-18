@@ -55,6 +55,79 @@ header div ul li:hover{
     display: none;
 }
 
+.footer {
+    background-image: url(../assets/footimg.jpg);
+    opacity: 10;
+    height: 1%;
+    color: white;
+}
+
+.footer .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+.footer .content {
+    margin: 2rem 5rem;
+    display: inline-flex;
+    /* width: 100vw; */
+    width: 89vw;
+    justify-content:space-evenly;
+}
+
+.footer .content .important{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer .content .important h4{
+    margin-bottom: 10px;
+}
+
+.footer .content hr {
+    /* padding: 3px; */
+    margin-left: 65px;
+
+}
+
+.footer .content .contact div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.footer .content .contact div i {
+    margin-right:  10px ;
+}
+
+.footer .socialmd {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer .socialmd a {
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.footer .socialmd a i {
+    width: 3rem;
+    height: 3rem;
+    margin: 2px 8px;
+    /* padding-top: 0.5rem; */
+    padding: 0.65rem;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    transition: all 265ms ease-out;
+}
 
 @media screen and ( max-width:769px ){
     header ul {
@@ -89,6 +162,29 @@ header div ul li:hover{
     #mobile i {
         font-size: 100px;
         cursor: pointer;
+    }
+
+    .footer .heading{
+        margin-bottom: 0;
+    }
+
+    .footer h4 {
+        text-align: center;
+    }
+
+    .footer hr {
+        display: none;
+    }
+
+    .footer .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer .content>div {
+        margin: 20px 0;
     }
 
 }

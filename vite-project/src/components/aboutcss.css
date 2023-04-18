@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+
+  font-family: raleway;
+}
+aside {
+  float: left;
+}
+.header {
+  display: flex;
+  justify-content: baseline;
+  background-image: url("../assets/background.jpg");
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+.container {
+  background-color: #e5e5fe;
+  width: 725px;
+  padding: 10px;
+  height: 180px;
+  font-family: raleway;
+}
+.headings {
+  background-color: #5858af;
+  padding: 5px;
+  width: 50%;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: x-large;
+}
+@font-face {
+  font-family: raleway;
+  src: url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
+}
