@@ -20,22 +20,23 @@ function Faculty2() {
                         <div><a href="https://in.linkedin.com/in/shakuntaleya"
                             target="_blank" className="l1"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
                                 alt="linkedin" height="45px" width="45px" className="linkedin" />
-                            Avinash Agrawal
+                            D.A. Borikar
                         </a></div>
-                        <div><a href="borikarda@rknec.edu" target="_blank" className="l2"> <img
+                        <div><a href="mailto:borikarda@rknec.edu" target="_blank" className="l2"> <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
                             alt="gmail" height="35px" width="45px" className="gmail" />
-                            agrawalaj@rknec.edu
+                            borikarda@rknec.edu
                         </a></div>
                     </div>
                 </div>
+                {/* "mailto:sujalagrawalgondia.com" */}
 
                 <div id="qualification">
                     <h1>
                         🎓 Graduation
                     </h1>
                     <p>
-                        Avinash Agrawal is an accomplished individual with a Bachelor of Engineering in Computer Technology,
+                        D.A. Borikar is an accomplished individual with a Bachelor of Engineering in Computer Technology,
                         a Master of Technology in Computer Technology, and a Doctor of Philosophy in Computer Science and Engineering.
                         His academic background demonstrates his expertise in these fields and reflects his dedication to learning
                         and professional growth. His achievements are a testament to his hard work and commitment to excellence.</p>

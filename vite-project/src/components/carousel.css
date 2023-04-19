@@ -95,7 +95,7 @@ body{
 }
 
 @media screen and (max-width: 1115px) {
-    .wrapper .outer{
+    .wrapper .outer .card{
         display: flex;
         align-items: center;
         justify-content: center;

@@ -24,7 +24,7 @@ function Faculty1() {
                             </a>
                         </div>
                         <div>
-                            <a href="agrawalaj@rknec.edu" target="_blank" className="l2"> <img
+                            <a href="mailto:agrawalaj@rknec.edu" target="_blank" className="l2"> <img
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
                                 alt="gmail" height="35px" width="45px" className="gmail" />
                                 agrawalaj@rknec.edu

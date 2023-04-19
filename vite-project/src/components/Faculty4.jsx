@@ -22,12 +22,12 @@ function Faculty4() {
                         <div><a href="https://in.linkedin.com/in/dr-manoj-b-chandak-ph-d-cse-6390b121"
                             target="_blank" class="l1"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
                                 alt="linkedin" height="45px" width="45px" class="linkedin" />
-
+                                M.B. Chandak
                         </a></div>
-                        <div><a href="agrawalaj@rknec.edu" target="_blank" class="l2"> <img
+                        <div><a href="mailto:chandakmb@rknec.edu" target="_blank" class="l2"> <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
                             alt="gmail" height="35px" width="45px" class="gmail" />
-
+                            chandakmb@rknec.edu
                         </a></div>
 
                     </div>

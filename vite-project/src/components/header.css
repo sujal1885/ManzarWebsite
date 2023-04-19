@@ -137,7 +137,7 @@ header div ul li:hover{
     transition: all 265ms ease-out;
 }
 
-@media screen and ( max-width:769px ){
+@media screen and ( max-width:900px ){
     header ul {
         display: flex;
         flex-direction: column;

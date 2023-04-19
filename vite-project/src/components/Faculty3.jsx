@@ -23,12 +23,12 @@ function Faculty3() {
                     <div><a href="https://www.linkedin.com/in/dr-abhijeet-r-raipurkar-ph-d-cse-360b00136"
                         target="_blank" className="l1"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
                             alt="linkedin" height="45px" width="45px" className="linkedin" />
-                                Avinash Agrawal 
+                                Abhijeet Raipurkar
                     </a></div>
-                    <div><a href="raipurkarar@rknec.edu" target="_blank" className="l2"> <img
+                    <div><a href="mailto:raipurkarar@rknec.edu" target="_blank" className="l2"> <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
                         alt="gmail" height="35px" width="45px" className="gmail" />
-                            agrawalaj@rknec.edu
+                            raipurkarar@rknec.edu
                     </a></div>
                 </div>
                 </div>

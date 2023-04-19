@@ -27,6 +27,7 @@ class Header extends Component{
                             <Link to="/About" style={{color:'white',textDecoration:'none'}}><li>About</li></Link>
                             <Link to="/Achievements" style={{color:'white',textDecoration:'none'}}><li>Achievements</li></Link>
                             <Link to='/faculty' style={{color:'white',textDecoration:'none'}}><li>Faculty</li></Link>
+                            <Link to='/alumni' style={{color:'white',textDecoration:'none'}}><li>Alumni</li></Link>
                         </ul>
                     </div>
                     <div id="mobile" onClick={this.handleClick}>
