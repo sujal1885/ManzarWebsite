@@ -1,4 +1,6 @@
 import React from "react";
+import './faculty.css'
+
 
 function Faculty2() {
     return (
@@ -22,7 +24,7 @@ function Faculty2() {
 
                                     <div><a href="https://in.linkedin.com/in/shakuntaleya"
                                         target="_blank" className="l1"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-                                            alt="linkedin" height="45px" width="45px" className="linkedin">
+                                            alt="linkedin" height="45px" width="45px" className="linkedin" />
                                             <pre> Avinash Agrawal </pre>
                                     </a></div>
                                     <div><a href="borikarda@rknec.edu" target="_blank" className="l2"> <img

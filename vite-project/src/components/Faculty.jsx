@@ -8,7 +8,7 @@ import './facultyB.css'
 function Faculty (){
     return (
         <> 
-        <div className="header">Faculty</div>
+        <div className="headeri">Faculty</div>
 
             <div className="squircle">
                 <div className="squircle1">
@@ -43,7 +43,7 @@ function Faculty (){
                 <div className="btn">Check Profile</div>
             </div>
 
-            <div className="squircle">
+            <div className="squircle" style={{marginBottom:'100px'}}>
                 <div className="squircle1">
                     <img src={chandak} alt="image description"/>
                 </div>
