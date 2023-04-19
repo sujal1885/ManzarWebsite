@@ -5,7 +5,7 @@ import './faculty.css'
 function Faculty3() {
     return (
         <>
-            <body>
+            <body className="bodyN">
                 <p className="info">Abhijeet Raipurkar</p>
                 <div id="info">
                     <p>

@@ -15,7 +15,7 @@ function Faculty (){
                     <img src={avinash} alt="image description"/>
                 </div>
                 <div className="details">
-                    <div className="name">Dr.Avinash Agrawal</div>
+                    <div className="namei">Dr.Avinash Agrawal</div>
                     <div className="designation">HOD</div>
                 </div>
                 <div className="btn">Check Profile</div>
@@ -26,7 +26,7 @@ function Faculty (){
                     <img src={borikar} alt="image description"/>
                 </div>
                 <div className="details">
-                    <div className="name">Dr.Dilipkumar Borikar</div>
+                    <div className="namei">Dr.Dilipkumar Borikar</div>
                     <div className="designation">Professor</div>
                 </div>
                 <div className="btn">Check Profile</div>
@@ -37,7 +37,7 @@ function Faculty (){
                     <img src={abhijeet} alt="image description"/>
                 </div>
                 <div className="details">
-                    <div className="name">Dr.Abhijeet Raipurkar</div>
+                    <div className="namei">Dr.Abhijeet Raipurkar</div>
                     <div className="designation">Professor</div>
                 </div>
                 <div className="btn">Check Profile</div>
@@ -48,7 +48,7 @@ function Faculty (){
                     <img src={chandak} alt="image description"/>
                 </div>
                 <div className="details">
-                    <div className="name">Dr.Manoj Chandak</div>
+                    <div className="namei">Dr.Manoj Chandak</div>
                     <div className="designation">Professor</div>
                 </div>
                 <div className="btn">Check Profile</div>
