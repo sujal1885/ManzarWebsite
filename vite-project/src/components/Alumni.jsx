@@ -15,7 +15,7 @@ function Alumni() {
         <>
             <body className="bodyN">
                 <h1 className="hh">RCOEM ALUMNI AROUND THE GLOBE</h1>
-                <div className="Globe">
+                <div className="globe">
                 </div>
 
                 <div className="alumnislider">

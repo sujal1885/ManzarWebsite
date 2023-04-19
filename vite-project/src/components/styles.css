@@ -12,10 +12,13 @@
     height: 50%;
     margin-right: 0%;
     padding: 10%;
+    display: flex;
 }
 .bodyN {
   margin: 0;
   background-color: rgb(3, 3, 36);
+  display: flex;
+  width: 34vw;
 }
 element{
   width: 800px;
@@ -23,13 +26,16 @@ element{
 .alumnislider{
   background-color: rgb(3, 3, 36);
   display: grid;
+  width: 71vw;
   place-items: center;
+  position: absolute;
+  right: -64vw;
 }
 .containerg{
   height: 350px;
   margin: auto;
   position: relative;
-  width: 90%;
+  width: 70vw;
   display: grid;
   place-items: center;
   overflow: hidden;
