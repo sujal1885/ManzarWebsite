@@ -22,7 +22,7 @@ function HOD(){
                                 fontWeight:'700'
                             }}
                         >
-                            Our Aim is to...
+                            Our Vision...
                         </Typography>
                         <Typography
                             sx={{

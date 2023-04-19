@@ -1,0 +1,163 @@
+/* 
+body {
+    position: relative;
+    width: 200px;
+    height: 450px;
+    background: linear-gradient(180deg, #3a0154 0.01%, #b693f7 99.99%, rgba(255, 255, 255, 0) 100%);
+    background-repeat: no-repeat;
+}
+
+.name {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+
+.info{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    top: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+#info {
+    color: white;
+    position: relative;
+    top: 220px;
+    left: 150px;
+    font-size: 25px;
+}
+
+#qualification {
+    box-sizing: border-box;
+    position: relative;
+    top: 250px;
+    left: 0px;
+    width: 1250px;
+    height: 250px;
+    color: white;
+    background: linear-gradient(180deg, #3a0154 0.01%, #a071f8 99.99%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #ffffff;
+    filter: drop-shadow(74px 90px 45px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    text-align:left;
+    font-size: 20px;
+}
+
+#achievement {
+    box-sizing: border-box;
+    position: relative;
+    top: 250px;
+    left: 0px;
+    width: 1250px;
+    height: 250px;
+    color: white;
+    background: linear-gradient(180deg,  #3a0154 0.01%, #a071f8 99.99%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #ffffff;
+    filter: drop-shadow(74px 90px 45px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+}
+
+#spec {
+    box-sizing: border-box;
+    position: relative;
+    top: 250px;
+    left: 0px;
+    width: 1250px;
+    height: 250px;
+    color: white;
+    background: linear-gradient(180deg, #3a0154 0.01%, #a071f8 99.99%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #ffffff;
+    filter: drop-shadow(74px 90px 45px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+}
+
+
+#spec:hover {
+    background: linear-gradient(180deg, #3a0154 0.01%, #bc9cf8 99.99%, rgba(255, 255, 255, 0) 100%);
+    width: 1260px;
+    height: 270px;
+    font-weight: bold;
+}
+
+#achievement:hover {
+    background: linear-gradient(180deg, #3a0154 0.01%, #bc9cf8 99.99%, rgba(255, 255, 255, 0) 100%);
+    width: 1260px;
+    height: 270px;
+    font-weight: bold;
+}
+
+#qualification:hover {
+    background: linear-gradient(180deg, #3a0154 0.01%, #bc9cf8 99.99%, rgba(255, 255, 255, 0) 100%);
+    width: 1260px;
+    height: 270px;
+    font-weight: bold;
+}
+
+#box {
+    position: absolute;
+    width: 325px;
+    height: 425px;
+    top: 150px;
+    left: 1450px;
+    background: url(AvinashJAgrawal.jpg);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+    background-color: rgb(255, 243, 243);
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.img{
+    position: absolute;
+    width: 325px;
+    height: 325px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+
+.gmail{
+    position: absolute;
+  top: 360px;
+  left: 70px;
+  z-index: 2;
+  
+}
+
+.linkedin{
+    position: absolute;
+    top: 360px;
+    left: 190px;
+    z-index: 2;
+}
+
+#box:hover{
+    transform: scale(1.1);
+}
+
+.gmail:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.linkedin:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+ */

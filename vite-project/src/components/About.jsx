@@ -19,6 +19,7 @@ import thtwo from '../assets/32.png'
 import ththree from '../assets/33.png'
 import thfour from '../assets/34.png'
 import thfive from '../assets/35.png'
+import aiml from '../assets/aiml.png'
 
 
 function About(){
@@ -66,13 +67,13 @@ function About(){
       <div className="container" style={{marginTop: '30px', width: '98%', height: '100%'}}>
         <aside>
           <br />
-          <img src="1.png" alt="" width="200px" height="150px" /><br /><br />
-          <img src="2.png" width="200px" height="150px" alt="" />
+          <img src={first} alt="" width="200px" height="150px" /><br /><br />
+          <img src={second} width="200px" height="150px" alt="" />
         </aside>
         <br />
         <div style={{float: 'right'}}>
-          <img src="3.png" alt="" width="200px" height="150px" /><br /><br />
-          <img src="4.png" alt="" width="200px" height="150px" />
+          <img src={third} alt="" width="200px" height="150px" /><br /><br />
+          <img src={fourth} alt="" width="200px" height="150px" />
         </div>
         <div style={{marginLeft: '25%', width: '50%'}}>
           <h1 className="headings">Salient features of Department</h1>
@@ -110,98 +111,98 @@ function About(){
         <div style={{marginLeft: '60px', marginRight: '60px'}}>
           <center>
             <img
-              src="21.png"
+              src={tone}
               width="100px"
               height="100px"
               style={{marginLeft: '20px'}}
               alt=""
             />
             <img
-              src="22.png"
+              src={ttwo}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="23.png"
+              src={tthree}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="24.png"
+              src={tfour}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="25.png"
+              src={tfive}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="26.png"
+              src={tsix}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="27.png"
+              src={tseven}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             /><br />
             <img
-              src="28.png"
+              src={teight}
               width="100px"
               height="100px"
               style={{marginLeft: '20px'}}
               alt=""
             />
             <img
-              src="29.png"
+              src={tnine}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="30.png"
+              src={th}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="31.png"
+              src={thone}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="32.png"
+              src={thtwo}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="33.png"
+              src={ththree}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
               alt=""
             />
             <img
-              src="35.png"
+              src={thfour}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}
@@ -240,7 +241,7 @@ function About(){
           </h4>
         </div>
       </div>
-      <div className="container" style={{marginTop: '30px', width: '98%', height: '100%'}}>
+      <div className="container" style={{marginTop: '300px', width: '98%', height: '100%'}}>
         <h1 className="headings" style={{width: '100%'}}>
           B.Tech Computer Science & Engineering (Artificial Intelligence &
           Machine Learning)

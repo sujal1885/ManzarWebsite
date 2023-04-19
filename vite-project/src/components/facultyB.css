@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(to bottom right, blueviolet, aliceblue);
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0 0 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #202020;
+    background-image: linear-gradient(to bottom right, #4b0082, #9400d3);
+    text-shadow: 1px 1px 2px #000;
+  }
+
+  .squircle {
+    width: 100%;
+    max-width: 1300px;
+    height: 230px;
+    border-radius: 25px;
+    background-color: #ccc;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    background-color: #572d79e7;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .squircle:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+  .squircle1 {
+    width: 180px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #ccc;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    margin-left: 25px;
+    display: flex;
+    overflow: hidden;
+    border: 5px solid #1a1a1a;
+    transition: transform 0.3s ease;
+  }
+
+  .squircle1:hover {
+    transform: rotate(-5deg) scale(1.1);
+  }
+
+  .squircle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .details {
+    color: white;
+    margin-left: 25px;
+    margin-right: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px #000;
+  }
+
+  .designation {
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #000;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #9400d3;
+  }
+
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .squircle {
+      flex-direction: column;
+      height: auto;
+    } 
+    .squircle1 {
+      margin: 0 0 20px 0;
+    }
+
+    .details {
+      margin-right: 0;
+    }
+  }
+
+  
