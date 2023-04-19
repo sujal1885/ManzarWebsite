@@ -53,6 +53,7 @@ function About(){
           </h4>
         </div>
       </aside>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br />
       <div className="container" style={{marginLeft: '50%'}}>
         <h1 className="headings">Mission</h1>
         <br />
@@ -64,6 +65,7 @@ function About(){
           society.
         </h4>
       </div>
+      {/* <br /><br /><br /><br /><br /><br /><br /> */}
       <div className="container" style={{marginTop: '30px', width: '98%', height: '100%'}}>
         <aside>
           <br />

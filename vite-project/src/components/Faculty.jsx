@@ -4,6 +4,7 @@ import borikar from "../assets/borikar.jpg"
 import abhijeet from "../assets/Abhijeet.jpg"
 import chandak from "../assets/chandak.jpg"
 import './facultyB.css'
+import { Link } from "react-router-dom";
 
 function Faculty (){
     return (
@@ -18,7 +19,7 @@ function Faculty (){
                     <div className="namei">Dr.Avinash Agrawal</div>
                     <div className="designation">HOD</div>
                 </div>
-                <div className="btn">Check Profile</div>
+                <Link to="/faculty1"><div className="btn">Check Profile</div></Link> 
             </div>
 
             <div className="squircle">
@@ -29,7 +30,7 @@ function Faculty (){
                     <div className="namei">Dr.Dilipkumar Borikar</div>
                     <div className="designation">Professor</div>
                 </div>
-                <div className="btn">Check Profile</div>
+                <Link to="/faculty2"><div className="btn">Check Profile</div></Link>
             </div>
 
             <div className="squircle">
@@ -40,7 +41,7 @@ function Faculty (){
                     <div className="namei">Dr.Abhijeet Raipurkar</div>
                     <div className="designation">Professor</div>
                 </div>
-                <div className="btn">Check Profile</div>
+                <Link to="/faculty3"><div className="btn">Check Profile</div></Link>
             </div>
 
             <div className="squircle" style={{marginBottom:'100px'}}>
@@ -51,7 +52,7 @@ function Faculty (){
                     <div className="namei">Dr.Manoj Chandak</div>
                     <div className="designation">Professor</div>
                 </div>
-                <div className="btn">Check Profile</div>
+                <Link to="/faculty4"><div className="btn">Check Profile</div></Link>
             </div>
 
 

@@ -1,6 +1,7 @@
 import "./header.css";
 import rcoemlogo from "../assets/rcoemLogo.png";    
 import footerimg from "../assets/footimg.jpg";
+import { Link } from "react-router-dom";
 
 function Footer (){
     return (
@@ -14,10 +15,10 @@ function Footer (){
                     <div className="important">
                         <h4>Important Links</h4>
                         <ul>
-                            <li>About</li>
-                            <li>Achievements</li>
-                            <li>Faculty</li>
-                            <li>Alumni</li>
+                            <Link to="/About" style={{color:'white',textDecoration:'none'}}><li className="footerli" >About</li></Link>
+                            <Link to="/Achievements" style={{color:'white',textDecoration:'none'}}><li className="footerli" >Achievements</li></Link>
+                            <Link to="/faculty" style={{color:'white',textDecoration:'none'}}><li className="footerli" >Faculty</li></Link>
+                            <Link to="/alumni" style={{color:'white',textDecoration:'none'}}><li className="footerli" >Alumni</li></Link>
                         </ul>
                     </div>
                         <hr />
@@ -36,9 +37,9 @@ function Footer (){
                 </div>
 
                 <div className="socialmd">
-                        <a href=""><i className="fa-brands fa-instagram"></i></a>
-                        <a href=""><i className="fa-brands fa-linkedin-in"></i></a>
-                        <a href=""><i className="fa-brands fa-twitter"></i></a> 
+                        <a href="https://www.instagram.com/rcoem__official/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/school/sri.-ramdeobaba-kamla-nehru-engineering-college-katol-road/" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/RCOEM_Official" target="_blank"><i className="fa-brands fa-twitter"></i></a> 
                 </div>
             </div>
             

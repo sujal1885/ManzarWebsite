@@ -26,10 +26,8 @@ element{
   place-items: center;
 }
 .containerg{
-  height: 350px;
   margin: auto;
   position: relative;
-  width: 90%;
   display: grid;
   place-items: center;
   overflow: hidden;

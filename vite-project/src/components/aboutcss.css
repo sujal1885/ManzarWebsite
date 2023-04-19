@@ -3,7 +3,6 @@
   padding: 0;
   border-radius: 10px;
   padding-left:2px;
-
   font-family: raleway;
 }
 aside {
@@ -22,9 +21,9 @@ aside {
 }
 .containerm {
   background-color: #e5e5fe;
-  width: 725px;
+  /* width: 725px; */
   padding: 10px;
-  height: 180px;
+  /* height: 180px; */
   font-family: raleway;
 }
 .headings {

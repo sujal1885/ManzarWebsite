@@ -51,6 +51,13 @@ header div ul li:hover{
     border-radius: 1.5rem;
 }
 
+.footerli:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #5858AF;
+    border-radius: 1.5rem;
+    padding:5px;
+}
+
 #mobile {
     display: none;
 }
