@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./achievements.css";
-import trophy from "../assets/trophy.jpg";
+import trophy from "../assets/trophy.png";
 import amazon from "../assets/amazon.png";
 import vmware from "../assets/vmware.png";
 import gold from "../assets/gold.png";
@@ -27,7 +27,7 @@ function Achievements() {
                             <p className="card_no">33.6L</p>
                         </div>
                         <div className="box">
-                            <p className="card_head">HIghest Grant</p>
+                            <p className="card_head">Highest Grant</p>
                             <p className="card_no">1Cr+</p>
                         </div>
                     </div>

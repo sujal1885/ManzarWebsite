@@ -36,7 +36,7 @@ body{
 .box{
     background-color:white;
     border-radius: 15px;
-   
+   color: rgb(79, 15, 230);
     height: 25vh;
     width: 13vw;
     display: flex;
@@ -48,6 +48,7 @@ body{
 }
 .box:hover{
     background-color: rgb(238, 234, 247);
+    color: black;
     transform: scale(1.2); /* Increase the size of the box by 10% */
     transition: all 0.2s ease-in-out; /* Add a smooth transition effect */
   }
@@ -67,11 +68,16 @@ body{
 }
 .box2{
     display: flex;
+    color: rgb(79, 15, 230);
+    background-color: white;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .box2:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
     transform: scale(1.1); /* Increase the size of the box by 10% */
     transition: all 0.2s ease-in-out; /* Add a smooth transition effect */
 }
@@ -110,3 +116,32 @@ body{
     justify-content: space-between;
     width: 60vw;
 }
+/* @media (max-width: 768px) {
+     styles for screens with a maximum width of 768px
+    .containeri {
+      height: 100vh;
+    }
+    .heading {
+      font-size: 40px;
+    }
+    .cards {
+      flex-wrap: wrap;
+    }
+    .box {
+      width: 45%;
+      margin: 1vw 2.5vw;
+    }
+    .box2 {
+      flex-direction: column;
+    }
+    .left, .right {
+      text-align: center;
+    }
+    .content_title {
+      font-size: 1.5rem;
+    }
+    .complogos {
+      width: 90%;
+    }
+  }
+*/
