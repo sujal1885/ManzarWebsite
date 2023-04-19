@@ -16,7 +16,7 @@ function Carousel() {
                             <div className="content">
                                 <div className="img"><img src={core} alt="core" /></div>
                                 <div className="details">
-                                    <span className="name">CSE Core</span>
+                                    <span>CSE Core</span>
                                     <p>The greatest branch</p>
                                 </div>
                             </div>
@@ -25,7 +25,7 @@ function Carousel() {
                             <div className="content">
                                 <div className="img"><img src={dataScience} alt="" /></div>
                                 <div className="details">
-                                    <span className="name">Data Science</span>
+                                    <span>Data Science</span>
                                     <p>Chaman chutiya</p>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ function Carousel() {
                             <div className="content">
                                 <div className="img"><img src={cyber} alt="" /></div>
                                 <div className="details">
-                                    <span className="name">Cyber Security</span>
+                                    <span >Cyber Security</span>
                                     <p>Mahachutiya</p>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ function Carousel() {
                             <div className="content">
                                 <div className="img"><img src={aiml} alt="" /></div>
                                 <div className="details">
-                                    <span className="name">AIML</span>
+                                    <span>AIML</span>
                                     <p>Akhand chutiya</p>
                                 </div>
                             </div>
