@@ -55,6 +55,12 @@ element{
   perspective: 100px;
 
 }
+
+.slide-image:hover{
+  transform: scale(1.1); /* Increase the size of the box by 10% */
+  transition: all 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
 .imgg{
   width: 100%;
   transition: transform 1s;

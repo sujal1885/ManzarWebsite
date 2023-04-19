@@ -10,16 +10,13 @@ import tthree from '../assets/23.png'
 import tfour from '../assets/24.png'
 import tfive from '../assets/25.png'
 import tsix from '../assets/26.png'
-import tseven from '../assets/27.png'
 import teight from '../assets/28.png'
 import tnine from '../assets/29.png'
 import th from '../assets/30.png'
 import thone from '../assets/31.png'
 import thtwo from '../assets/32.png'
 import ththree from '../assets/33.png'
-import thfour from '../assets/34.png'
-import thfive from '../assets/35.png'
-import aiml from '../assets/aiml.png'
+
 
 
 function About(){
@@ -53,7 +50,6 @@ function About(){
           </h4>
         </div>
       </aside>
-      {/* <br /><br /><br /><br /><br /><br /><br /><br /><br /> */}
       <div className="container" >
         <h1 className="headings">Mission</h1>
         <br />
@@ -65,7 +61,6 @@ function About(){
           society.
         </h4>
       </div>
-      {/* <br /><br /><br /><br /><br /><br /><br /> */}
       <div className="container">
         <aside>
           <br />

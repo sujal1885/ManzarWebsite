@@ -11,7 +11,7 @@ body{
     color:black;
 }
 .containeri{
-   height: 50vh;
+   height: 45vh;
    background-image: url(../assets/achiev-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -68,6 +68,10 @@ body{
       }
     .card_head{
         padding:5px;
+    }
+    .box{
+        margin: 1vw 0vw;
+        /* justify-content: center; */
     }
 }
 
