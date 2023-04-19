@@ -1,4 +1,6 @@
 import React from "react";
+import './faculty.css'
+
 
 function Faculty1() {
     return (

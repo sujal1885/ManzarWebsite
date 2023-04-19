@@ -25,7 +25,7 @@ import aiml from '../assets/aiml.png'
 function About(){
     return(
         <>
-            <div className="header">
+            <div className="headerm">
       <h1
         style={{
           color: 'aliceblue',
@@ -40,7 +40,7 @@ function About(){
     <br />
     <main>
       <aside>
-        <div className="container">
+        <div className="containerm">
           <h1 className="headings">Vision</h1>
           <br />
           <h4 style={{marginLeft: '100px'}}>
@@ -152,13 +152,7 @@ function About(){
               style={{marginLeft: '100px'}}
               alt=""
             />
-            <img
-              src={tseven}
-              width="100px"
-              height="100px"
-              style={{marginLeft: '100px'}}
-              alt=""
-            /><br />
+            <br />
             <img
               src={teight}
               width="100px"
@@ -196,13 +190,6 @@ function About(){
             />
             <img
               src={ththree}
-              width="100px"
-              height="100px"
-              style={{marginLeft: '100px'}}
-              alt=""
-            />
-            <img
-              src={thfour}
               width="100px"
               height="100px"
               style={{marginLeft: '100px'}}

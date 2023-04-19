@@ -1,10 +1,9 @@
 body {
-    background: linear-gradient(to bottom right, blueviolet, aliceblue);
-    color: #fff;
+    /* color: #fff; */
     font-family: Arial, sans-serif;
   }
 
-  .header {
+  .headeri {
     font-size: 28px;
     font-weight: bold;
     color: white;
@@ -14,7 +13,9 @@ body {
     border-radius: 25px;
     background-color: #202020;
     background-image: linear-gradient(to bottom right, #4b0082, #9400d3);
+    background: linear-gradient(to bottom right, blueviolet, aliceblue);
     text-shadow: 1px 1px 2px #000;
+    margin-bottom: 0px;
   }
 
   .squircle {
@@ -24,6 +25,7 @@ body {
     border-radius: 25px;
     background-color: #ccc;
     margin: auto;
+    margin-bottom: 30px;
     position: relative;
     top: 70px;
     background-color: #572d79e7;

@@ -8,9 +8,10 @@
 body{
     background-color:white;
     font-family: 'Raleway', sans-serif;
+    color:black;
 }
 .containeri{
-    height: 50vh;
+   height: 50vh;
    background-image: url(../assets/achiev-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -20,7 +21,7 @@ body{
     font-size: 60px;
     color: white;
     margin-left: 6vw;
-   padding-top: 5vh;
+    padding-top: 5vh;
 }
 .cards{
     position: absolute;

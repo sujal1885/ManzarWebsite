@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
   border-radius: 10px;
+  padding-left:10px;
 
   font-family: raleway;
 }
 aside {
   float: left;
 }
-.header {
+.headerm {
   display: flex;
   justify-content: baseline;
   background-image: url("../assets/background.jpg");
@@ -19,7 +20,7 @@ aside {
   width: 100%;
   height: 400px;
 }
-.container {
+.containerm {
   background-color: #e5e5fe;
   width: 725px;
   padding: 10px;
