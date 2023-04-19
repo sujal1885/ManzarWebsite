@@ -17,12 +17,20 @@
     font-size: 25px;
 }
 
+#faculty-head-info h4 {
+    font-size: 45px;
+}
+
  #faculty-head-box {
     padding: 2rem;
     filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
     border-radius: 25px;
     background-color: rgb(255, 243, 243);
     transition: all 0.5s ease-in-out;
+}
+
+#faculty-head-box:hover{
+    transform:scale(1.08);
 }
 
  

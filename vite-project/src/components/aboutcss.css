@@ -9,7 +9,6 @@
 main {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 aside {
@@ -18,18 +17,14 @@ aside {
 }
 .headerm {
   display: flex;
-  justify-content: baseline;
+  justify-content: end;
   background-image: url("../assets/background.jpg");
-  padding: 1px;
+  padding-right: 5rem;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
   width: 100%;
   height: 400px;
-}
-
-main{
-  width: 90%;
 }
 
 main .container {

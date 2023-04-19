@@ -9,6 +9,8 @@ import { Link } from "react-router-dom";
 function Faculty (){
     return (
         <> 
+        <div style={{backgroundColor:'#b39ab991',height:'100%', paddingBottom:'40px'}}>
+
         <div className="headeri">Faculty</div>
 
             <div className="squircle">
@@ -44,7 +46,7 @@ function Faculty (){
                 <Link to="/faculty3"><div className="btn">Check Profile</div></Link>
             </div>
 
-            <div className="squircle" style={{marginBottom:'100px'}}>
+            <div className="squircle" >
                 <div className="squircle1">
                     <img src={chandak} alt="image description"/>
                 </div>
@@ -55,6 +57,7 @@ function Faculty (){
                 <Link to="/faculty4"><div className="btn">Check Profile</div></Link>
             </div>
 
+            </div>
 
         
         </>

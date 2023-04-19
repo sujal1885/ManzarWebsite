@@ -1,6 +1,6 @@
 import React from "react";
 import './faculty.css'
-
+import Abhijeet from '../assets/Abhijeet.jpg'
 
 function Faculty3() {
     return (
@@ -17,15 +17,15 @@ function Faculty3() {
                 </div>
 
                 <div id="faculty-head-box">
-                <img src="http://www.rknec.edu/Faculty/UserPhotos/raipurkarar/Abhijeet%20Raipurkar.jpg"
+                <img src={Abhijeet}
                     alt="hod" className="img" />
 
                     <div><a href="https://www.linkedin.com/in/dr-abhijeet-r-raipurkar-ph-d-cse-360b00136"
-                        target="_blank" className="l1"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                        target="_blank" className="l1" style={{textDecoration:'none',color:'black',}}><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
                             alt="linkedin" height="45px" width="45px" className="linkedin" />
                                 Abhijeet Raipurkar
                     </a></div>
-                    <div><a href="mailto:raipurkarar@rknec.edu" target="_blank" className="l2"> <img
+                    <div><a href="mailto:raipurkarar@rknec.edu" target="_blank" className="l2" style={{textDecoration:'none',color:'black',}}> <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
                         alt="gmail" height="35px" width="45px" className="gmail" />
                             raipurkarar@rknec.edu

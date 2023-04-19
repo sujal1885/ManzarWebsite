@@ -23,6 +23,7 @@ body{
   display: flex;
   justify-content: left;
   padding-top: 250px;
+  
 }
 .wrapper .card{
   background: D9D9D9;
@@ -39,9 +40,7 @@ body{
   animation: animate 12s linear infinite;
   animation-delay: calc(var(--delay) * 3s);
 }
-.outer:hover .card{
-  animation-play-state: paused;
-}
+
 .wrapper .card:last-child{
   animation-delay: calc((var(--delay) - 4) * 3s);
 }
@@ -97,9 +96,29 @@ body{
 }
 
 @media screen and (max-width: 1115px) {
+
+  .wrapper .outer {
+    width: 30%;
+    margin: 0 auto;
+  }
     .wrapper .outer .card{
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 40vw;
+        height: 40vh;
+      }
+
+    .wrapper .outer .card .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+      .wrapper .card .img {
+        width: 25vw;
+      }
+      .card .details{
+        margin-left:0 ;
       }
 }

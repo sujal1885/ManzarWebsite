@@ -1,5 +1,6 @@
 import React from "react";
 import './faculty.css'
+import borikar from '../assets/borikar.jpg'
 
 
 function Faculty2() {
@@ -14,16 +15,16 @@ function Faculty2() {
                         <p>💼  21 years</p>
                     </div>
                     <div id="faculty-head-box">
-                        <img src="http://www.rknec.edu/Faculty/UserPhotos/borikarda/DAB_Website_New.jpg"
+                        <img src={borikar}
                             alt="hod" className="img" />
 
                         <div><a href="https://in.linkedin.com/in/shakuntaleya"
-                            target="_blank" className="l1"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                            target="_blank" className="l1" style={{textDecoration:'none',color:'black',}}><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
                                 alt="linkedin" height="45px" width="45px" className="linkedin" />
                             D.A. Borikar
                         </a></div>
-                        <div><a href="mailto:borikarda@rknec.edu" target="_blank" className="l2"> <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
+                        <div><a href="mailto:borikarda@rknec.edu" target="_blank" className="l2" style={{textDecoration:'none',color:'black',}}> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" 
                             alt="gmail" height="35px" width="45px" className="gmail" />
                             borikarda@rknec.edu
                         </a></div>
