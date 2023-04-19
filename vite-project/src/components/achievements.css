@@ -37,7 +37,7 @@ body{
 .box{
     background-color:white;
     border-radius: 15px;
-   color: rgb(79, 15, 230);
+    color: rgb(79, 15, 230);
     height: 25vh;
     width: 13vw;
     display: flex;
@@ -61,6 +61,16 @@ body{
 .card_no{
     font-size: 55px;
 }
+
+@media screen and (max-width: 900px) {
+    .card_no{
+        font-size:20px;
+      }
+    .card_head{
+        padding:5px;
+    }
+}
+
 .container_content{
     
     margin: 9vh 6vw;
