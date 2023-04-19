@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color:white;
@@ -117,19 +118,28 @@ body{
     justify-content: space-between;
     width: 60vw;
 }
-/* @media (max-width: 768px) {
-     styles for screens with a maximum width of 768px
+@media (max-width: 768px) {
+     /* styles for screens with a maximum width of 768px */
     .containeri {
       height: 100vh;
+      position: relative;
+      width: 100vw;
+      margin: 10px;
     }
     .heading {
       font-size: 40px;
     }
     .cards {
+      position: absolute;
+      height: 500px;
+      width: 100%;
+      display: flex;
       flex-wrap: wrap;
+      bottom:150px;
+      background-color: black;
     }
     .box {
-      width: 45%;
+      width: 40%;
       margin: 1vw 2.5vw;
     }
     .box2 {
@@ -145,4 +155,3 @@ body{
       width: 90%;
     }
   }
-*/
