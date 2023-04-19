@@ -40,7 +40,7 @@ function About(){
     <br />
     <main>
       <aside>
-        <div className="containerm">
+        <div className="container">
           <h1 className="headings">Vision</h1>
           <br />
           <h4 style={{marginLeft: '100px'}}>
@@ -53,8 +53,8 @@ function About(){
           </h4>
         </div>
       </aside>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <div className="container" style={{marginLeft: '50%'}}>
+      {/* <br /><br /><br /><br /><br /><br /><br /><br /><br /> */}
+      <div className="container" >
         <h1 className="headings">Mission</h1>
         <br />
         <h4 style={{marginLeft: '100px'}}>
@@ -66,7 +66,7 @@ function About(){
         </h4>
       </div>
       {/* <br /><br /><br /><br /><br /><br /><br /> */}
-      <div className="container" style={{marginTop: '30px', width: '98%', height: '100%'}}>
+      <div className="container">
         <aside>
           <br />
           <img src={first} alt="" width="200px" height="150px" /><br /><br />
@@ -100,7 +100,7 @@ function About(){
       </div>
       <div
         className="container"
-        style={{marginTop: '30px', width: '98%', height: '550px'}}
+        
       >
         <center><h1 className="headings">Career Prospects</h1></center>
         <br />
@@ -230,7 +230,7 @@ function About(){
           </h4>
         </div>
       </div>
-      <div className="container" style={{marginTop: '300px', width: '98%', height: '100%'}}>
+      <div className="container">
         <h1 className="headings" style={{width: '100%'}}>
           B.Tech Computer Science & Engineering (Artificial Intelligence &
           Machine Learning)
@@ -249,7 +249,7 @@ function About(){
 
         <br />
         <aside>
-          <h4 style={{width: '70%'}}>
+          <h4>
             The programme covers fundamental courses of Computer science and
             engineering major including programming for problem solving, Data
             Structures, Computer Architecture, Operating Systems, Algorithms,
@@ -291,7 +291,7 @@ function About(){
           TCS
         </h4>
       </div>
-      <div className="container" style={{marginTop: '30px', width: '98%', height: '100%'}}>
+      <div className="container">
         <h1 className="headings" style={{width: '100%'}}>
           B.Tech Computer Science & Engineering (Data Science)
         </h1>
@@ -309,7 +309,7 @@ function About(){
 
         <br />
         <aside>
-          <h4 style={{width: '70%'}}>
+          <h4>
             The curriculum is designed to meet the growing demands of the
             data-driven economy of the future. The theoretical foundations are
             drawn primarily from Statistics, Computer Science, and Mathematics.
@@ -341,7 +341,7 @@ function About(){
           Sig Tuple, Supertext.ai, Dell, Juniper.
         </h4>
       </div>
-      <div className="container" style={{marginTop: '30px', width: '98%', height: '100%'}}>
+      <div className="container" >
         <h1 className="headings" style={{width: '100%'}}>
           B.Tech Computer Science & Engineering (Cyber Security)
         </h1>
@@ -359,7 +359,7 @@ function About(){
 
         <br />
         <aside>
-          <h4 style={{width: '70%'}}>
+          <h4>
             This pioneering course will prove good opportunity for the students,
             as curriculum consists of courses that give students in-depth
             knowledge and skills in several aspects of cyber security. The
