@@ -8,6 +8,7 @@ import Faculty2Page from "./pages/Faculty2page";
 import Faculty3Page from "./pages/Faculty3Page";
 import Faculty4Page from "./pages/Faculty4Page";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
+import AlumniPage from "./pages/AlumniPage";
 
 
 function App(){
@@ -23,6 +24,7 @@ function App(){
           <Route exact path="/faculty2" element={<Faculty2Page />}></Route>
           <Route exact path="/faculty3" element={<Faculty3Page />}></Route>
           <Route exact path="/faculty4" element={<Faculty4Page />}></Route>
+          <Route exact path="/alumni" element={<AlumniPage />}></Route>
         </Routes>
       </BrowserRouter>
     </>
