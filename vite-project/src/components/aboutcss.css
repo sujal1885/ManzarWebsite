@@ -17,9 +17,9 @@ aside {
 }
 .headerm {
   display: flex;
-  justify-content: baseline;
+  justify-content: end;
   background-image: url("../assets/background.jpg");
-  padding: 1px;
+  padding-right: 5rem;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
