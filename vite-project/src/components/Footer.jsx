@@ -36,7 +36,7 @@ function Footer() {
                     </div>
                 </div>
                 <center><div>
-                🏆🏆Earned First Prize for Website Making Competion in MANZAR RCOEM 2023🏆🏆
+                🏆🏆Earned First Prize for Website Making Competion in MANZAR RCOEM 2023🏆🏆<br/>Contributers: Anup,Sujal,Vivek,Arnav (CSE B)
                 </div></center>
                 <div className="socialmd">
                     <a href="https://www.instagram.com/rcoem__official/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
